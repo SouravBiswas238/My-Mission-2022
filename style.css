@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 150px;
+    /* margin: 10px 20px; */
+}
+.container-first{
+    display: flex;
+   
+}
+/* Text left start here */
+.container-first .text-left{
+    /* flex: 50%; */
+    width: 50%;
+    margin: 20px;
+}
+.border-left{
+    border-left: 5px solid #8843F2;
+ 
+}
+.text-left h1{
+    display: block;
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 10px 10px;
+}
+.text-orange{
+    color: #F47340;
+}
+.text-left p{
+    margin: 40px 0px;
+    margin-right: 100px;
+    font-size: 1.1rem;
+}
+a{
+   text-decoration: none;
+   padding: 10px;
+   color: white;
+   background: linear-gradient(#F47340,#EF2F88);
+}
+
+.image-right{
+    /* flex: 50%; */
+    width: 50%;
+}
+.image-right img{
+    width: 58%;
+    margin-top: -73px;
+    margin-left: 76px;
+}
+
+/* container-Second start */
+.container-second{
+    /* border: 2px solid red; */
+
+}
+.container-second h1{ 
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0;
+
+}
+.container-myMission{
+    display: flex;
+    /* text-align: center; */
+
+}
+.mission-box{
+    width: 30%;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    
+}
+.mission-box img{
+    width: 40%;
+}
+.mission{
+    background-color: rgba(244, 172, 64, 0.11);
+
+}
+.vission{
+    background-color: #ef2f8923;
+}
+.goals{
+    background-color: #8943f218;
+}
+
+/* container-3 start */
+.container-3{
+    display: flex;
+    margin-top: 50px;
+
+}
+.image-part{
+    width: 40%;
+   
+
+}
+.image-part img{
+    width: 74%;
+    margin-left: 81px;
+}
+.text-part{
+    width: 60%;
+    padding: 10px 30px;
+}
+.container-3 h1{
+    font-size: 2rem;
+    margin: 18px 0px;
+}
+.text-part{
+    padding: 10px 30px;
+}
+.text-part p{
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
