@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
-
-body{
+/* Suitable for 1496 scrine size */
+*,body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+.my-body{
     padding: 50px 150px;
-    /* margin: 10px 20px; */
+    padding-bottom: 0;
 }
 .container-first{
     display: flex;
@@ -35,9 +37,10 @@ body{
     margin-right: 100px;
     font-size: 1.1rem;
 }
-a{
+.my-button{
    text-decoration: none;
    padding: 10px;
+   border-radius: 5px;
    color: white;
    background: linear-gradient(#F47340,#EF2F88);
 }
@@ -54,12 +57,13 @@ a{
 
 /* container-Second start */
 .container-second{
-    /* border: 2px solid red; */
+  
 
 }
 .container-second h1{ 
     text-align: center;
     font-size: 3rem;
+    margin: 33px;
     margin-top: 0;
 
 }
@@ -137,26 +141,83 @@ a{
 .container4 h1{
     font-size: 3rem;
     text-align: center;
+    margin: 30px;
+
+}
+.my-form{
+ display: flex;
+ background-size: 68px; 
 
 }
 .form-left{
-    width: 50%;
+    width: 55%;
+    margin-right: 30px;
+    box-shadow: 0px 0px 5px black;
+    background: url(./img/shapes/shape-6.png);
+    background-repeat: no-repeat;
+   background: rgba(173, 216, 230, 0.582) url("./img/shapes/shape-6.png") no-repeat center;
+   background-size: 100%; 
 }
-form{
-    padding: 20px 10px;
-    border: 2px solid red ;
-}
-form label{
-    font-size: 1rem;
+.shap-contact{
+    width: 30%;
+   float: left;
+    margin-left: -70px;
 
+ 
+    
 }
-form input{
+.form-left a{
+   padding: 10px 20px;
+}
+.form-left h3{
+  font-size: 1rem;
+  font-weight: 100;
+ color: rgba(0, 0, 0, 0.596);
+}
+
+.form-left form{
+    padding: 20px 15px;
+    z-index: 1;
+}
+.form-left form label{
+    font-size: 1rem;
+}
+.form-left form input{
   margin: 10px 5px;
   padding: 5px;
   font-size: 1rem;
 }
 form textarea{
-  margin: 10px 0px;
-  padding: 5px;
-text-align: left;
+    margin: 30px 0px;
+    margin-top: 10px;
+    padding: 5px;
+   text-align: left;
+}
+.form-right{
+    width: 40%;
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 5px black;
+    background: rgba(173, 216, 230, 0.568) url("./img/shapes/shape-6.png") no-repeat bottom;
+    background-size: 80%;
+    
+}
+.form-right p{
+    margin: 15px 0px;
+
+}
+/* footer start here */
+.container-5{
+    background-color: black;
+    color: white;
+    /* margin-top: 25px; */
+}
+.container-5 h1{
+    text-align: center;
+    margin: 25px 0px;
+    padding-top: 35px;
+}
+.container-5 p{
+    text-align: center;
+    padding: 25px 0px;
 }
